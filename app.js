@@ -48,8 +48,11 @@ function random() {
 function printResults(text) {
     setTimeout(() => {
         result.innerHTML = (text);
+        setTimeout(()=>{
+            result.innerHTML="";
+           },1000)
     }, 4000);
-
+  
 }
 function check() {
 

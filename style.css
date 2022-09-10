@@ -1,17 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Dancing+Script:wght@500&family=Lexend+Deca&family=Roboto:wght@500&family=Signika+Negative:wght@300;400;500&display=swap');
 
 body {
-    background-color:#FEF5AC;
+    background-color: #FEF5AC;
 }
 
 #container {
     display: flex;
     flex-direction: column;
     border: 2px white solid;
-    width: 1120px;
-    height: 1080px;
+    width: 560px;
+    height: 540px;
     margin: 0 auto;
-    margin-top: 150px;
+    margin-top: 50px;
 
 }
 
@@ -19,11 +19,11 @@ body {
 #container-header {
     display: flex;
     flex-direction: row;
-    margin:0 auto;
+    margin: 0 auto;
     margin-top: 20px;
     border-radius: 30px;
-    width: 820px;
-    height: 200px;
+    width: 410px;
+    height: 70px;
     background-color: rgba(13, 204, 230, 0.384);
 }
 
@@ -31,91 +31,96 @@ body {
     color: black;
     display: flex;
     flex-direction: column;
-    font-size: xx-large;
+    font-size: medium;
     margin-left: 50px;
-    margin-top: 20px;
-    width: 180px;
+    margin-top: 2px;
+    width: 90px;
     font-family: 'Signika Negative', sans-serif;
     font-weight: 600;
 
 
 }
-#container-header-score{
+
+#container-header-score {
     display: flex;
     flex-direction: column;
-    width: 150px;
-    height: 150px;
+    width: 70px;
+    height: 60px;
     margin-left: 45%;
-    margin-top: 2.5%;
+    margin-top: 5px;
     background-color: white;
     border-radius: 20px;
 }
-#score{
+
+#score {
     color: black;
     font-family: 'Signika Negative', sans-serif;
-    font-size: xx-large;
-    font-weight:600;
-    margin:0 auto;
-    margin-top: 15px;
+    font-size: large;
+    font-weight: 600;
+    margin: 0 auto;
+    margin-top: 7px;
 }
-#header-score-table{
+
+#header-score-table {
     display: flex;
     justify-content: center;
-    width: 75px;
-    height: 75px;
+    width: 25px;
+    height: 25px;
     margin: 0 auto;
     font-family: 'Signika Negative', sans-serif;
-    font-size: 400%;
+    font-size: 150%;
     font-weight: 600;
 }
 
-#container-header-result{
-    width: 820px;
-    height: 100px;
+#container-header-result {
+    width: 410px;
+    height: 50px;
     display: flex;
     justify-content: center;
     margin: 0 auto;
-    margin-top: 80px;
+    margin-top: 50px;
 }
+
 #header-result {
- color: red;
- font-family: 'Signika Negative', sans-serif;
- font-size:70px;
- font-weight: 900;
- margin: 0 auto;
- 
+    color: red;
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+    margin: 0 auto;
+
 }
+
 #container-body {
     display: flex;
     justify-content: center;
     margin: 0 auto;
-    width: 50%;
-    height: 550px;
-    margin-top: 120px;
+    width: 40%;
+    height: 220px;
+    margin-top: 60px;
     border-radius: 300px;
     background-color: white;
 }
 
 .buttons {
-    width: 150px;
-    height: 150px;
-    margin-top: 100px;
+    width: 60px;
+    height: 60px;
+    margin-top: 40px;
 }
 
-#button-of-paper{
-    margin-left: 10px;
+#button-of-rock {
+    margin-top: 150px;
 }
-#button-of-rock{
-    margin-top: 360px;
-}
-.turn{
+
+.turn {
     animation: turning 4s;
 }
-@keyframes turning{
-    0%{
+
+@keyframes turning {
+    0% {
         transform: rotate(0deg);
     }
-    100%{
+
+    100% {
         transform: rotate(720deg);
     }
 }
